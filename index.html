@@ -9,13 +9,13 @@
 	</head>
 	<body class="bg-gray-100 font-sans leading-normal tracking-normal">
 		<header class="bg-gray-900 text-white py-4 shadow-lg">
-			<div class="container mx-auto flex justify-between items-center px-6">
+			<div class="container mx-auto flex flex-wrap justify-between items-center px-6">
 				<a href="#">
-					<img src="./img/logo.png" alt="Romero Construction Logo" class="h-24" />
+					<img src="./img/logo.png" alt="Romero Construction Logo" class="h-16 md:h-24" />
 				</a>
-				<h1 class="text-3xl font-bold">Romero Construction</h1>
+				<h1 class="text-xl md:text-3xl font-bold">Romero Construction</h1>
 				<nav>
-					<ul class="flex space-x-6">
+					<ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
 						<li><a href="#services" class="hover:text-yellow-500">Services</a></li>
 						<li><a href="#showcase" class="hover:text-yellow-500">Showcase</a></li>
 						<li><a href="#about" class="hover:text-yellow-500">About Us</a></li>
@@ -26,11 +26,11 @@
 		</header>
 
 		<section class="bg-cover bg-center h-screen" style="background-image: url('./img/house2.webp')">
-			<div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50">
+			<div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50 px-6">
 				<div class="text-center text-white">
-					<img src="./img/logo.png" alt="Romero Construction Logo" class="h-96 mx-auto" />
-					<h2 class="text-5xl font-bold mb-4">Welcome to Romero Construction</h2>
-					<p class="text-xl mb-8">Your trusted partner for all your construction needs.</p>
+					<img src="./img/logo.png" alt="Romero Construction Logo" class="h-48 md:h-96 mx-auto" />
+					<h2 class="text-3xl md:text-5xl font-bold mb-4">Welcome to Romero Construction</h2>
+					<p class="text-lg md:text-xl mb-8">Your trusted partner for all your construction needs.</p>
 					<a href="#contact" class="bg-yellow-500 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-600">Get a Free Estimate</a>
 				</div>
 			</div>
@@ -39,7 +39,7 @@
 		<div class="container mx-auto px-6 py-10">
 			<section id="services" class="mb-16">
 				<h2 class="text-3xl font-bold text-gray-900 border-b-4 border-yellow-500 inline-block pb-2 mb-8">Our Services</h2>
-				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 					<!-- Service Item -->
 					<div class="bg-white p-6 rounded-lg shadow-md text-center">
 						<i class="fas fa-tools fa-3x text-yellow-500 mb-4"></i>
@@ -147,7 +147,7 @@
 
 			<section id="showcase" class="mb-16">
 				<h2 class="text-3xl font-bold text-gray-900 border-b-4 border-yellow-500 inline-block pb-2 mb-8">Our Work</h2>
-				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 					<div class="bg-white p-4 rounded-lg shadow-md">
 						<img src="./img/window.jpg" alt="Project Image" class="rounded-lg mb-4" />
 						<h3 class="text-xl font-bold mb-2">Window Installation</h3>
